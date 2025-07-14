@@ -1,0 +1,131 @@
+.photo {
+  height: 1650px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  filter: blur(5px);
+}
+.h-1 {
+  position: absolute;
+  width: 660px;
+  color: white;
+  text-align: center;
+  border: 1px solid none;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.main-blk {
+  background-color: black;
+  height: 670px;
+  width: 25%;
+  border-radius: 40px;
+  margin: 40px auto;
+  padding: 20px 0;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
+  margin-bottom: 0;
+  position: absolute;
+  top: 105%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.div1 {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+    margin: 10px auto;
+    box-shadow: 0 0 20px red;
+}
+.div2 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+    margin: 10px auto;
+    box-shadow: 0 0 20px yellow;
+}
+.div3 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+    cursor: pointer;
+    margin: 10px auto;
+    box-shadow: 0 0 20px green;
+}
+.div1, .div2, .div3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.line {
+  height: 370px;
+  width: 5%;
+  background-color: black;
+  margin: 40px auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+  position: absolute;
+  top: 187%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.foot {
+  height: 100px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 40px auto;
+  margin-top: -10px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+  position: absolute;
+  top: 215%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.guide {
+  position: absolute;
+  width: 520px;
+  height: 85px;
+  font-size: 16px;
+  top: 27%;
+  left: 50%;
+  text-align: center;
+  border-radius: 10px;
+  transform: translate(-50%,-50%);
+  background-color: rgba(255, 228, 196, 0.8);
+}
+.start {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.info {
+  border: 1px solid black;
+  padding: 5px;
+}

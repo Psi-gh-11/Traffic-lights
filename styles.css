@@ -124,6 +124,7 @@
   font-weight: bold;
   border-radius: 50%;
   cursor: pointer;
+  border: 1px solid;
 }
 .info {
   border: 1px solid black;
